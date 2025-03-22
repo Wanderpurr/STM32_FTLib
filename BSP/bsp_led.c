@@ -29,6 +29,6 @@ void LED_GPIO_Config(void)
     /* 关闭所有灯 */
     GPIO_SetBits(LED1_GPIO_PORT, LED1_GPIO_PIN);
     GPIO_SetBits(LED2_GPIO_PORT, LED2_GPIO_PIN);
-    GPIO_SetBits(LED3_GPIO_PORT, LED2_GPIO_PIN);
+    GPIO_SetBits(LED3_GPIO_PORT, LED3_GPIO_PIN);
 }
 
