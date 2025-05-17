@@ -559,6 +559,16 @@
               <FileType>1</FileType>
               <FilePath>..\BSP\bsp_beep.c</FilePath>
             </File>
+            <File>
+              <FileName>bsp_clkconfig.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\bsp_clkconfig.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_mcooutput.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\bsp_mcooutput.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
