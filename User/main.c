@@ -6,10 +6,11 @@ int main(void)
 {
 
 	LED_GPIO_Config();
-	
+	SysTick_Init();
+
 	while (1)
 	{
-		LED1_TOGGLE;
-		SysTick_Delay_Ms(500);
+		Delay_ms(500);
+		LED2_TOGGLE;
 	}
 }
